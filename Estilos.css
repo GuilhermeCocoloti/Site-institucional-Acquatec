@@ -1,28 +1,28 @@
-body{
+body {
     margin: 0;
     font-family: sans-serif;
     background-color: black;
 }
 
-.header{
-    color: #32b9cd; 
+.header {
+    color: #32b9cd;
     border-bottom: solid 3px #32b9cd;
     /* border: solid 3px green; */
 }
 
-.container{
+.container {
     /* border: solid 3px yellow; */
     width: 80%;
     margin: auto;
 }
 
 
-.header .container{
+.header .container {
     display: flex;
     justify-content: space-between;
 }
 
-.navbar{
+.navbar {
     display: flex;
     width: 600px;
     justify-content: space-around;
@@ -32,7 +32,7 @@ body{
 }
 
 .banner {
-     /* border: solid 3px rgb(186, 144, 151);  */
+    /* border: solid 3px rgb(186, 144, 151);  */
     color: white;
     padding: 40px 0;
     height: 400px;
@@ -41,7 +41,7 @@ body{
 
 }
 
-.banner .container{
+.banner .container {
     /* border: solid red; */
     height: 400px;
     display: flex;
@@ -50,34 +50,38 @@ body{
 
 }
 
-.banner p{
+.banner p {
     /* border: solid 3px green; */
     font-size: 36px;
     width: 280px;
-    
+
 }
-.banner .container span{
+
+.banner .container span {
     font-weight: 800;
 }
+
 /*missão visão valores */
-.social{
+.social {
     /* border: solid 3px green; */
     background-color: white;
 }
 
-.box img{
+.box img {
     width: 170px;
 }
+
 /* .social .container{
      border: 3px purple; 
 
  }  */
-.social .container .boxes{
+.social .container .boxes {
     /* border: solid 3px yellow; */
     display: flex;
-    
+
 }
-.box{
+
+.box {
     /* border: solid 3px blue; */
     margin: 50px 10px 10px 10px;
     display: flex;
@@ -85,27 +89,29 @@ body{
     align-items: center;
 }
 
-.social p{
+.social p {
     text-align: center;
 }
-.footer{
+
+.footer {
     background-color: #32b9cd;
     height: 150px;
     color: #fff;
     display: flex;
 }
-.footer .container{
-display: flex;
-justify-content: center;
-font-size: 20px;
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
 }
 
-    .header ul #aqui {
-        font-weight: 1000;
-        color: #32b9cd;
-    }
+.header ul #aqui {
+    font-weight: 1000;
+    color: #32b9cd;
+}
 
-    a {
-        color: #e3b062;
-        text-decoration: none;
-    }
+a {
+    color: #e3b062;
+    text-decoration: none;
+}
